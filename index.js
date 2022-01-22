@@ -7,6 +7,7 @@ const ul = document.getElementById("ul");
 
 const todos = JSON.parse(localStorage.getItem("todos"));
 
+
 if(todos){    //todosに値があれば、add()に１個ずつ値を渡す。
     todos.forEach(todo=>{
         add(todo);
